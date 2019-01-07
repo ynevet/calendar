@@ -2,7 +2,6 @@
 ### A python-based pure implementation of a calendar module.
 
 #### Usage example:
-
 <pre><code>
 import sys
 from Calendar import *
