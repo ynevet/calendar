@@ -4,7 +4,8 @@
 #### Usage example:
 <pre><code>
 import sys
-from Calendar import *
+from classes.Calendar import *
+from classes.Date import *
 from time import localtime
 
 filename = sys.argv[1]
