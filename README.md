@@ -1,7 +1,7 @@
 # calendar
-##A python-based calendar module.
+A python-based calendar module.
 
-###Usage example:
+Usage example:
 
 <pre><code>
 import sys
