@@ -1,5 +1,5 @@
 # calendar
-A python-based calendar module.
+### A python-based pure implementation of a calendar module.
 
 Usage example:
 
