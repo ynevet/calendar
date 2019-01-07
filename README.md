@@ -1,5 +1,5 @@
 # calendar
-### A python-based pure implementation of a calendar class and related modules.
+### A python-based pure implementation of a Calendar class and related modules.
 
 #### Usage example:
 <pre><code>
