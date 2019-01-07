@@ -26,13 +26,6 @@ class Calendar:
     def get_all_events_in_month(self, month):
         """ Return a dictionary with all the events in the given month
         month is the number of the month """
-        return {k: str(v) for k, v in self.events.items() if v.month == month}
+        # return {k: str(v) for k, v in self.events.items() if v.month == month}
         # return filter(lambda k,v: (v.month == month and k==k), self.events.items())
         return filter(lambda v: v.month == month, self.events.values())
-
-        # month_events = {}
-        # for name in self.events.keys():
-        #    if (self.events[name].month == month):
-        #        month_events[name] = self.events[name]
-
-        # return month_events
